@@ -1,6 +1,5 @@
-// app/faq/page.tsx
 import React from "react";
-import Link from "next/link";
+// import Link from "next/link";
 import Footer from "@/components/footer";
 import Header, { Header1, Header2 } from "@/components/header";
 
@@ -12,9 +11,9 @@ const FAQPage: React.FC = () => {
       <Header1 />
       <Header2 />
 
-      {/* Main Content */}
+      
       <main className="container mx-auto py-10 px-6 sm:py-8 sm:px-4">
-        {/* Title */}
+    
         <section className="text-center mb-10">
           <h1 className="text-3xl font-semibold mb-6">Questions Look Here</h1>
           <p className="text-gray-600 text-base sm:text-lg">
@@ -22,7 +21,7 @@ const FAQPage: React.FC = () => {
           </p>
         </section>
 
-        {/* FAQ Grid */}
+        
         <section className="grid grid-cols-1 md:grid-cols-2 gap-6 gap-y-4">
           {[
             { question: "What types of chairs do you offer?", id: 1 },

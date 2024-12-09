@@ -1,12 +1,11 @@
 import React from "react";
-// import Link from "next/link";
 import Footer from "@/components/footer";
 import Header, { Header1, Header2 } from "@/components/header";
 
 const FAQPage: React.FC = () => {
   return (
     <div className="text-black text-sm">
-      {/* Header */}
+  
       <Header />
       <Header1 />
       <Header2 />
@@ -43,8 +42,6 @@ const FAQPage: React.FC = () => {
           ))}
         </section>
       </main>
-
-      {/* Footer */}
       <Footer />
     </div>
   );

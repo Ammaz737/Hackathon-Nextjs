@@ -4,7 +4,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-gray-100 py-8">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-        {/* Logo and Description */}
+       
         <div>
           <div className="flex items-center space-x-2">
             <img src="/Image/comforty.png" alt="Comforty Logo" className="w-20 h-auto" />
@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
-        {/* Categories */}
+      
         <div>
           <h3 className="text-lg font-semibold text-gray-800">Category</h3>
           <ul className="mt-4 space-y-2 text-sm sm:text-base">
@@ -35,7 +35,7 @@ const Footer: React.FC = () => {
           </ul>
         </div>
 
-        {/* Useful Links */}
+      
         <div>
           <h3 className="text-lg font-semibold text-gray-800">Useful Links</h3>
           <ul className="mt-4 space-y-2 text-sm sm:text-base">
@@ -49,7 +49,7 @@ const Footer: React.FC = () => {
           </ul>
         </div>
 
-        {/* Contact */}
+        
         <div>
           <h3 className="text-lg font-semibold text-gray-800">Contact</h3>
           <ul className="mt-4 space-y-2 text-sm sm:text-base">
@@ -77,7 +77,7 @@ const Footer: React.FC = () => {
 export default Footer;
 
   
-          {/* Support */}
+         
 <div>
   <h3 className="text-lg font-semibold text-gray-800">Support</h3>
   <ul className="mt-4 space-y-2">
@@ -120,7 +120,7 @@ export default Footer;
         className="h-6"
       />
       <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXsAAACFCAMAAACND6jkAAAAxlBMVEX///8AcNDn5+fm5ubl5eXu7u7x8fH19fXq6ur5+fn7+/v39/fv7+8Aac8AbtAAZc4AaM4AX8wAYs3w7egXdNH58umguOBvndqGqd61xOL8+fW/1e5DhdaApdnu7Oirw+HZ6PXV3+jq8vrO1+N0oNrW4fS9zuTk7vrd4ubL1OmkweeGqNp3m9YAW8tnmNdYkdgtetK4zulSi9ZGh9aUteQ4f9SvwOLE0eJhk9ehwOkATsm4yeGwyuzU2eSRs+Okxej///QAVszNhLFGAAAeXUl..." alt="" />
-      {/* Add more icons here */}
+     
     </div>
   </div>
 </div>

@@ -9,10 +9,9 @@ const AboutPage: React.FC = () => {
       <Header1 />
       <Header2 />
 
-      {/* Hero Section */}
+      
       <section className="bg-[#f9f9f9] py-12">
         <div className="container mx-auto flex flex-col md:flex-row items-center px-6 space-y-6 md:space-y-0 md:space-x-8">
-          {/* Text Section */}
           <div className="bg-teal-600 text-white p-8 rounded-lg md:w-1/2 text-center md:text-left">
             <h2 className="text-2xl font-semibold mb-4">About Us - Comforty</h2>
             <p>
@@ -27,7 +26,7 @@ const AboutPage: React.FC = () => {
             </button>
           </div>
 
-          {/* Image Section */}
+          
           <div className="md:w-1/2">
             <img
               src="/image/whair.png"
@@ -38,7 +37,7 @@ const AboutPage: React.FC = () => {
         </div>
       </section>
 
-      {/* Features Section */}
+     
       <section className="py-12">
         <div className="container mx-auto text-center px-6">
           <h3 className="text-2xl font-semibold mb-6">
@@ -75,7 +74,7 @@ const AboutPage: React.FC = () => {
         </div>
       </section>
 
-      {/* Popular Products */}
+    
       <section className="bg-[#f9f9f9] py-12">
         <div className="container mx-auto px-6">
           <h3 className="text-center text-2xl font-semibold mb-6">

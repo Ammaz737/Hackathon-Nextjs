@@ -1,5 +1,4 @@
 import Header, { Header1, Header2 } from "@/components/header";
-import Image from "next/image";
 
 const ContactPage = () => {
   return (
@@ -8,7 +7,6 @@ const ContactPage = () => {
       <Header1 />
       <Header2 />
 
-      {/* Contact Form Section */}
       <section className="py-16 bg-gray-100">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-gray-900 text-center mb-6">
@@ -70,7 +68,6 @@ const ContactPage = () => {
         </div>
       </section>
 
-      {/* Contact Information Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">

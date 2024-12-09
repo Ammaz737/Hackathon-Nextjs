@@ -7,11 +7,11 @@ const Cart = () => {
   return (
     <div className="max-w-[1321px] mx-auto px-4 sm:px-2 py-8">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-        {/* Cart Items */}
+        
         <div className="lg:col-span-2">
           <h2 className="text-[22px] font-medium pl-3 mb-6">Bag</h2>
 
-          {/* Item 1 */}
+          
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between bg-white p-4 rounded-lg shadow-md mb-4">
             <div className="flex items-center space-x-4 w-full sm:w-auto">
               <div className="w-24 h-24 bg-orange-200 rounded">
@@ -49,7 +49,6 @@ const Cart = () => {
             </div>
           </div>
 
-          {/* Item 2 */}
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between bg-white p-4 rounded-lg shadow-md">
             <div className="flex items-center space-x-4 w-full sm:w-auto">
               <div className="w-24 h-24 bg-gray-300 rounded">
@@ -88,7 +87,7 @@ const Cart = () => {
           </div>
         </div>
 
-        {/* Summary */}
+        
         <div>
           <h2 className="text-2xl font-bold mb-6">Summary</h2>
           <div className="bg-white p-6 rounded-lg shadow-md">

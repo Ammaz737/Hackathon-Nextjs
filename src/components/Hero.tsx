@@ -28,7 +28,7 @@ const Hero = () => {
 
      
       <div className="container mx-auto flex justify-center items-center mt-10 space-x-4 flex-wrap">
-        <Image src="/image/chair1.png" alt="Logo 1" width={100} height={50} />
+        <Image src="/image/Chair 1.png" alt="Logo 1" width={100} height={50} />
         <Image src="/image/chair.png" alt="Logo 2" width={100} height={50} />
         <Image src="/image/chair3.png" alt="Logo 3" width={100} height={50} />
         <Image src="/image/Fet.png" alt="Logo 4" width={100} height={50} />

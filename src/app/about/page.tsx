@@ -29,7 +29,7 @@ const AboutPage: React.FC = () => {
           
           <div className="md:w-1/2">
             <img
-              src="/image/whair.png"
+              src="/Image/whair.png"
               alt="Comforty Chair"
               className="rounded-lg shadow-lg"
             />
@@ -85,17 +85,17 @@ const AboutPage: React.FC = () => {
               {
                 name: "The Parker sofa",
                 price: "$500.00",
-                img: "/images/sofa.jpg",
+                img: "/image/Fe.png",
               },
               {
                 name: "The Darcy chair",
                 price: "$250.00",
-                img: "/images/darcy-chair.jpg",
+                img: "/Image/chair.png",
               },
               {
                 name: "The Cindy chair",
                 price: "$200.00",
-                img: "/images/cindy-chair.jpg",
+                img: "/image/Chair2.png",
               },
             ].map((product, index) => (
               <div

@@ -15,7 +15,7 @@ export default function HotProduct() {
         </div>
   
         <div className="flex flex-col md:flex-row items-center gap-8">   
-            
+
           <div className="w-full md:w-[48%]">
             <Image
               src="/03.jpg"
@@ -38,7 +38,7 @@ export default function HotProduct() {
             </div>
             <div className="aspect-square">
               <Image
-                src="/01.jpg"
+                src="/Image/Fe.png"
                 alt="Gray upholstered chair"
                 className="h-full w-full object-cover rounded-lg"
                 width={500}
@@ -47,7 +47,7 @@ export default function HotProduct() {
             </div>
             <div className="aspect-square">
               <Image
-                src="/06.jpg"
+                src="/Fet.png"
                 alt="Vintage white chair"
                 className="h-full w-full object-cover rounded-lg"
                 width={500}
@@ -56,7 +56,7 @@ export default function HotProduct() {
             </div>
             <div className="aspect-square">
               <Image
-                src="/01.jpg"
+                src="/Chair 1.png"
                 alt="Vintage white chair duplicate"
                 className="h-full w-full object-cover rounded-lg"
                 width={500}
